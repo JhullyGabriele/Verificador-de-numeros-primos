@@ -1,2 +1,4 @@
 # Verificador-de-numeros-primos
 Um verificador de números primos em C.
+
+Um verificador de números primos muito simples. Primeiro, é pedido um número; em sequência, tenta-se dividir esse número por todos os números até ele. Caso o resto da divisão seja 0, ou seja, caso o número seja divisível por outro número, soma-se 1 à variável "divisor", que funciona como um contador. Caso a variável dividor apresente, ao final, o valor 2, significa que o número informado no início é divisível por 2 números, exatamente o que é um número primo: divisível por 1 e por ele mesmo. Então, caso "divisor" seja igual a 2, é informado que o número é primo, senão é informado que não é primo.
